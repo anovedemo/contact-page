@@ -21,37 +21,37 @@ function Contact() {
                     <ContactCard
                         title={"General Inbox"}
                         desc={"Have any questions regarding Anove's pricing or capabilities?"}
-                        img={"src/assets/chat.svg"}
+                        img={"/chat.svg"}
                         linkto={"mailto:contact@anove.ai"}
                     />
                     <ContactCard
                         title={"Media"}
                         desc={"We'd love to learn more about the article or paper you're writing."}
-                        img={"src/assets/scroll.svg"}
+                        img={"/scroll.svg"}
                         linkto={"mailto:contact@anove.ai"}
                     />
                     <ContactCard
                         title={"Support"}
                         desc={"If you have any troubles with the Anove app, we're here to help!"}
-                        img={"src/assets/headset.svg"}
+                        img={"/headset.svg"}
                         linkto={"mailto:contact@anove.ai"}
                     />
                     <ContactCard
                         title={"Partnerships"}
                         desc={"We are always open to partneships. Send us a message to discuss."}
-                        img={"src/assets/handshake.svg"}
+                        img={"/handshake.svg"}
                         linkto={"mailto:contact@anove.ai"}
                     />
                     <ContactCard
                         title={"Report a Bug"}
                         desc={"Have you found a bug or security vulnerability in the Anove app?"}
-                        img={"src/assets/bug-beetle.svg"}
+                        img={"/bug-beetle.svg"}
                         linkto={"mailto:contact@anove.ai"}
                     />
                     <ContactCard
                         title={"Vacancies"}
                         desc={"We're looking for talented people."}
-                        img={"src/assets/read-cv-logo.svg"}
+                        img={"/read-cv-logo.svg"}
                         linkto={"https://www.anove.ai/vacancies"}
                     />
                 </div>

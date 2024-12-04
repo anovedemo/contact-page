@@ -25,8 +25,8 @@ function Footer() {
                 <div className="flex flex-col md:flex-row mt-12">
                     <div className="w-1/2 lg:w-2/5 self-center">
                     <div className="flex flex-col lg:flex-row max-w-[230px]">
-                        <img src="src/assets/seceurope.svg" />
-                        <img src="src/assets/entrepeneur.svg" />
+                        <img src="/seceurope.svg" />
+                        <img src="/entrepeneur.svg" />
                     </div>
                     </div>
                     <div className="lg:w-1/5 flex flex-col gap-2 py-5">
