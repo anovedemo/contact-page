@@ -1,6 +1,6 @@
+import { useState } from "react";
 import ContactCard from "../components/ContactCard";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
 import HeaderTransparent from "../components/HeaderTransparent";
 import 'animate.css';
 
@@ -11,7 +11,7 @@ function Contact() {
                 <HeaderTransparent />
                 <div class="border-t border-white w-[95vw] md:w-2/3 hidden md:flex"></div>
                 <div className="flex items-center h-full md:w-2/3">
-                    <h1 className="text-4xl md:text-6xl font-medium unbounded text-white text-center mb-10 md:mb-0 animate__animated animate__fadeInLeft">Contact Anove</h1>
+                    <h1 className="text-4xl md:text-6xl font-medium unbounded text-white text-center mb-10 md:mb-0 animate__animated animate__fadeInLeft">Contact Us</h1>
                 </div>
             </div>
             <div className="w-[90vw] lg:w-2/3 flex flex-col items-center mb-36">
