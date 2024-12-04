@@ -1,7 +1,7 @@
 function ContactCard( { title, desc, img, linkto }) {
     return (
-        <div>
-            <div className="flex flex-col items-center justify-between max-w-[400px] shadow-xl hover:shadow-2xl rounded-xl p-6 hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-mid-blue-700 cursor-pointer transition ease-in-out duration-200 min-h-[250px]">
+        <div className="animate__animated animate__fadeIn">
+            <div className="flex flex-col items-center justify-between max-w-[350px] lg:max-w-[400px] shadow-xl hover:shadow-2xl rounded-xl p-6 hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-mid-blue-700 cursor-pointer transition ease-in-out duration-200 min-h-[250px]">
                 <div className="flex gap-3 items-start">
                     <img src={img} className="flex-1 max-w-[60px]" />
                     <div className="flex-5 flex flex-col gap-1">
